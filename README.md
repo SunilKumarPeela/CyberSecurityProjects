@@ -4,3 +4,7 @@
 <h1>Internal Audit Report</h1>
 
 >I have done the Internal audit report for the Toy company for compliance following NIST CF.
+
+<h1>List privilege Access</h1>
+
+>I have provided access to the files to users, groups and others using linux bash scripting and the file is attached above
