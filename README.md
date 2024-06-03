@@ -8,3 +8,7 @@
 <h1>List privilege Access</h1>
 
 >I have provided access to the files to users, groups and others using linux bash scripting and the file is attached above
+
+<h1>SQL tool Filters</h1>
+
+>I have used SQL tool for filtering databases for the investigation. I have attached the document the steps I have done above
