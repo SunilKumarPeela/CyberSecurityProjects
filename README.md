@@ -12,3 +12,7 @@
 <h1>SQL tool Filters</h1>
 
 >I have used SQL tool for filtering databases for the investigation. I have attached the document the steps I have done above
+
+<h1>Vulnarability Accessment</h1>
+
+> The vulnerability assesment is done and documented which is attached above.
