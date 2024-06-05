@@ -16,3 +16,8 @@
 <h1>Vulnarability Accessment</h1>
 
 > The vulnerability assesment is done and documented which is attached above.
+
+<h1>Incident Response</h1>
+
+> The ransome incident in the health care sector shook the company. I have provided the details regarding this incident in the incident response form.
+
