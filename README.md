@@ -21,3 +21,6 @@
 
 > The ransome incident in the health care sector shook the company. I have provided the details regarding this incident in the incident response form.
 
+<h1>Update file through Python Algorithm</h1>
+
+> T have used the python programming language to update the file after reading it which is attached above.
