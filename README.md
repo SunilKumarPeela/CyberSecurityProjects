@@ -32,8 +32,8 @@
   relevant frameworks, and addressing any outstanding compliance-related issues.
 
   Task 1: Finding vulnerabilities in the Security Command Center 
-  >  I navigated to the Security Command Center and accessed the Active Vulnerabilities section. Once there, I used the "Findings By Resource Type" filter to sort the active vulnerabilities by resource. I focused 
-     on three cloud resource types with vulnerabilities that needed remediation: the Cloud storage bucket, the Compute Instance virtual machine (VM), and the firewall.
+  >  I navigated to the **Security Command Center** and accessed the **Active Vulnerabilities** section. Once there, I used the "**Findings By Resource Type**" filter to sort the active vulnerabilities by 
+     resource. I focused on three cloud resource types with vulnerabilities that needed remediation: the **Cloud storage bucket**, **the Compute Instance virtual machine (VM)**, and the **firewall**.
 
-  > Next, I went to the Compliance section to review the details of the PCI DSS 3.2.1 report. I identified the rules that were non-compliant with PCI DSS, which corresponded to the vulnerabilities in the bucket, 
+  > Next, I went to the **Compliance section** to review the details of the **PCI DSS 3.2.1** report. I identified the rules that were non-compliant with PCI DSS, which corresponded to the vulnerabilities in the bucket, 
     VM, and firewall. Remediating these vulnerabilities was my primary focus in the subsequent tasks and challenges.
