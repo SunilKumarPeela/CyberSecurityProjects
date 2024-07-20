@@ -67,5 +67,15 @@
 
   Task 3: Resolve Cloud Storage Bucket Permissions
 
+> **Vulnerabilities addressed:**
+> 
+> - Public bucket ACL (Cloud Storage buckets should not be anonymously or publicly accessible)
+> - Bucket policy only disabled
+> 
+> **The following vulnerabilities related to the Cloud Storage bucket were remediated by:**
+> 
+> - Removing the public access control list
+> - Disabling public bucket access
+> - Enabling uniform bucket-level access control
 
 
