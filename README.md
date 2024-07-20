@@ -78,9 +78,9 @@
 > - Disabling public bucket access
 > - Enabling uniform bucket-level access control
 >
-> -  ![Remove public access](https://github.com/sunilryo/Images/blob/main/Remove%20public%20access.png)
+>    ![Remove public access](https://github.com/sunilryo/Images/blob/main/Remove%20public%20access.png)
 >
-> -  ![Remove allUser access](https://github.com/sunilryo/Images/blob/main/Remove%20access%20to%20all%20users.png)
+>   ![Remove allUser access](https://github.com/sunilryo/Images/blob/main/Remove%20access%20to%20all%20users.png)
 
 
   Task 4: Limit Firewall Port Access
@@ -92,7 +92,7 @@
 > - Allowing access only from authorized IP addresses within the source network `35.235.240.0/20`.
 > - Applying the rule to Compute Engine VM instances with the target tag `cc`.
 >
-> -  ![Firewall rule](https://github.com/sunilryo/Images/blob/main/Firewall%20rule.png)
+>    ![Firewall rule](https://github.com/sunilryo/Images/blob/main/Firewall%20rule.png)
 >   
 
  Task 5: Fix the Firewall configuration
@@ -103,7 +103,13 @@
 >   - Open SSH port (Firewall rules should not permit connections from all IP addresses on TCP or SCTP port 22)
 >   - Open RDP port (Firewall rules should not permit connections from all IP addresses on TCP or UDP port 3389)
 >   - Firewall rule logging disabled (Firewall rule logging should be enabled to audit network access)
+>  
+>    ![Fix ports](https://github.com/sunilryo/Images/blob/main/fix%20ports.png)
+>     
 
+ Task 6: Verify Compliance
+
+ 
 
 
 
