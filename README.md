@@ -36,4 +36,5 @@
      resource. I focused on three cloud resource types with vulnerabilities that needed remediation: the **Cloud storage bucket**, **the Compute Instance virtual machine (VM)**, and the **firewall**.
 
   > Next, I went to the **Compliance section** to review the details of the **PCI DSS 3.2.1** report. I identified the rules that were non-compliant with PCI DSS, which corresponded to the vulnerabilities in the bucket, 
-    VM, and firewall. Remediating these vulnerabilities was my primary focus in the subsequent tasks and challenges.
+    VM, and firewall. Remediating these vulnerabilities was my primary focus in the subsequent tasks and challenges. <span style="color: #00D5E4;">Success</span>
+
