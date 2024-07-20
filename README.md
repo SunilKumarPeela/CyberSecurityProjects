@@ -82,5 +82,14 @@
 >
 > -  ![Remove allUser access](https://github.com/sunilryo/Images/blob/main/Remove%20access%20to%20all%20users.png)
 
+  Task 4: Limit Firewall Port Access
+> I have created a new firewall rule named `limit-ports` that restricted SSH (TCP port 22) access by:
+> 
+> - Creating a new firewall rule named `limit-ports`.
+> - Restricting *SSH (TCP port 22)* access.
+> - Allowing access only from authorized IP addresses within the source network `35.235.240.0/20`.
+> - Applying the rule to Compute Engine VM instances with the target tag `cc`.
+
+
 
 
