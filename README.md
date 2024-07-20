@@ -116,6 +116,11 @@
 >
 >  ![Final Report](https://github.com/sunilryo/Images/blob/main/compliance%20final.png)
 
+After completing the remediations, the final phase of the incident response, which is Post-Incident Activity, was carried out by creating a final report.
+
+[View the PDF]()
+
+
 
  
 
