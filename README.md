@@ -42,8 +42,9 @@
 > - Reviewed the details of the *PCI DSS 3.2.1* report in the *Compliance* section.
 > - Identified the rules that were non-compliant with PCI DSS, which corresponded to the vulnerabilities in the bucket, VM, and firewall.
 > - Focused on remediating these vulnerabilities in the subsequent tasks and challenges.
+>   ![Vulnarability Scanning](https://raw.githubusercontent.com/sunilryo/Images/main/vulnarability%20scan.png)
 
-![Vulnarability Scanning](https://raw.githubusercontent.com/sunilryo/Images/main/vulnarability%20scan.png)
+
 
 
   Task 2: 
