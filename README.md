@@ -64,7 +64,6 @@
 > ![Removed VM instance](https://github.com/sunilryo/Images/blob/main/Removed%20VM%20Instance.png)
 >
 > ![Created VM instance](https://raw.githubusercontent.com/sunilryo/Images/main/Created%20VM%20instance.png)
-> 
 
   Task 3: Resolve Cloud Storage Bucket Permissions
 
@@ -82,7 +81,7 @@
 > -  ![Remove public access](https://github.com/sunilryo/Images/blob/main/Remove%20public%20access.png)
 >
 > -  ![Remove allUser access](https://github.com/sunilryo/Images/blob/main/Remove%20access%20to%20all%20users.png)
-> -  
+
 
   Task 4: Limit Firewall Port Access
   
@@ -94,9 +93,17 @@
 > - Applying the rule to Compute Engine VM instances with the target tag `cc`.
 >
 > -  ![Firewall rule](https://github.com/sunilryo/Images/blob/main/Firewall%20rule.png)
-> -  
+>   
 
- Task 5:  
+ Task 5: Fix the Firewall configuration
+
+ > - Delete the `default-allow-icmp`, `default-allow-rdp`, and `default-allow-ssh` firewall rules.
+> - Enable logging for the newly created `limit-ports` firewall rule and the existing `default-allow-internal` firewall rule.
+> - This will address the following firewall vulnerabilities:
+>   - Open SSH port (Firewall rules should not permit connections from all IP addresses on TCP or SCTP port 22)
+>   - Open RDP port (Firewall rules should not permit connections from all IP addresses on TCP or UDP port 3389)
+>   - Firewall rule logging disabled (Firewall rule logging should be enabled to audit network access)
+
 
 
 
