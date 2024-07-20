@@ -77,5 +77,10 @@
 > - Removing the public access control list
 > - Disabling public bucket access
 > - Enabling uniform bucket-level access control
+>
+> -  ![Remove public access](https://github.com/sunilryo/Images/blob/main/Remove%20public%20access.png)
+>
+> -  ![Remove allUser access](https://github.com/sunilryo/Images/blob/main/Remove%20access%20to%20all%20users.png)
+
 
 
