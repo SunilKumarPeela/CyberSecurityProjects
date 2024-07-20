@@ -50,5 +50,17 @@
 
   Task 2: Address the vulnerabilities in the Compute Engine
 
+> - Identified the following vulnerabilities:
+>   - Public IP address (VMs should not have public IP addresses assigned)
+>   - Secure boot disabled on the Compute Engine
+>   - Default service account in use
+>   - Full API access (Instances should not use the default service account with unrestricted access to all Cloud APIs)
+>   - Malware detected: bad domain
+>
+> - Removed the existing VM instance named "cc-app-01."
+> - Created a new VM instance named "cc-app-02."
+> - Disabled secure boot on the new VM instance.
+
+
   
 
