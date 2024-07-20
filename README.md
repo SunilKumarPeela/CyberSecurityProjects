@@ -62,6 +62,10 @@
 > - Disabled secure boot on the new VM instance.
 >
 > ![Removed VM instance](https://github.com/sunilryo/Images/blob/main/Removed%20VM%20Instance.png)
+>
+> [Removed VM instance](https://github.com/sunilryo/Images/blob/main/Created%20VM%20instance.png)
 
-  
+  Task 3: Resolve Cloud Storage Bucket Permissions
+
+
 
