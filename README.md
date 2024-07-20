@@ -109,6 +109,14 @@
 
  Task 6: Verify Compliance
 
+ > - I navigated to the Security Command Center.
+> - I reviewed the details of the PCI DSS 3.2.1 compliance report.
+> - I noticed that the percentage of controls passed had increased.
+> - This increase indicated that the vulnerabilities had been effectively remediated.
+>
+>  ![Final Report](https://github.com/sunilryo/Images/blob/main/compliance%20final.png)
+
+
  
 
 
