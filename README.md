@@ -118,7 +118,7 @@
 
 After completing the remediations, the final phase of the incident response, which is Post-Incident Activity, was carried out by creating a final report.
 
-[View the PDF]()
+[View the PDF](https://github.com/sunilryo/Portfolio/blob/main/Final%20Incident%20Report-%20Capstone.pdf)
 
 
 
