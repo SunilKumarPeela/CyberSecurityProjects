@@ -120,8 +120,8 @@ After completing the remediations, the final phase of the incident response, whi
 
 [View the PDF](https://github.com/sunilryo/Portfolio/blob/main/Final%20Incident%20Report-%20Capstone.pdf)
 
-
-
+<h1> Security Blue Team Capstone Project</h1>
+<h1> Threat Hunting</h1>
  
 
 
