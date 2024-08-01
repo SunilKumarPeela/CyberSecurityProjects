@@ -170,3 +170,9 @@ File size - 402330 bytes
 >*IOC2*
 
 ![Mandiant IOC](https://github.com/sunilryo/Images/blob/main/ioc2.png)
+
+Indicators of Compromise (IOCs) generated from known malware samples received from an external source.
+
+<h3> Step-4 Create IOC collector using Mandiant RedLine </h3>
+
+Open Mandiant Redline and click on "**Create an IOC Search Collector**"
