@@ -135,11 +135,13 @@ After completing the remediations, the final phase of the incident response, whi
 
 Collected IOC for sample 1
 
->MD5 - b315c590c3ad691604597ea41f8dd84e
-SHA1 - 6d15e7f0bb54df5b27a093f20186773ab0af7707
-SHA256 - 37ea273266aa2d28430194fca27849170d609d338abc9c6c43c4e6be1bcf51f9
-Filename - 03fe93e6-a71c-11e6–8434–80e65024849a.file.exe
-File size - 830728 bytes
+```plaintext
+MD5: b315c590c3ad691604597ea41f8dd84e
+SHA1: 6d15e7f0bb54df5b27a093f20186773ab0af7707
+SHA256: 37ea273266aa2d28430194fca27849170d609d338abc9c6c43c4e6be1bcf51f9
+Filename: 03fe93e6-a71c-11e6–8434–80e65024849a.file.exe
+File size: 830728 bytes
+
 
 
 
