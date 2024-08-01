@@ -141,20 +141,21 @@ SHA1: 6d15e7f0bb54df5b27a093f20186773ab0af7707
 SHA256: 37ea273266aa2d28430194fca27849170d609d338abc9c6c43c4e6be1bcf51f9
 Filename: 03fe93e6-a71c-11e6–8434–80e65024849a.file.exe
 File size: 830728 bytes
-
-<h3> Step-1  Create IOC1 for malware 1 </h3>
+```
+<h3> Step-2  Create IOC2 for malware 2 </h3>
 
 >Use **Virustotal** to find md5, sha1, sha256, size details
-![Virus Total Ioc1](https://github.com/sunilryo/Images/blob/main/virustotal%201.png)
+![Virus Total Ioc1]([https://github.com/sunilryo/Images/blob/main/virustotal%201.png](https://github.com/sunilryo/Images/blob/main/Virustotal2.png))
 
 > Right-click on the malware file and click on properties to know the file name
 
 Collected IOC for sample 1
 
 ```plaintext
-MD5: b315c590c3ad691604597ea41f8dd84e
-SHA1: 6d15e7f0bb54df5b27a093f20186773ab0af7707
-SHA256: 37ea273266aa2d28430194fca27849170d609d338abc9c6c43c4e6be1bcf51f9
-Filename: 03fe93e6-a71c-11e6–8434–80e65024849a.file.exe
-File size: 830728 bytes
+MD5 - 0c4374d72e166f15acdfe44e9398d026
+SHA1 - f8ac123e604137654759f2fbc4c5957d5881d3d1
+SHA-256 - 240387329dee4f03f98a89a2feff9bf30dcba61fcf614cdac24129da54442762 
+File name- myfile.exe
+File size - 411982 bytes
+```
 
