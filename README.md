@@ -187,6 +187,54 @@ File size - 402330 bytes
 
 ![Mandiant Redline](https://github.com/sunilryo/Images/blob/main/WhatsApp%20Image%202024-08-01%20at%2016.02.57_d8f6f573.jpg)
 
+>Specify the file path to check for threats under the Disk tab.
+
+![Mandiant Redline](https://github.com/sunilryo/Images/blob/main/Redline.jpg)
+
+> Select the blocks that specifies parameters to check
+
+![Mandiant Redline](https://github.com/sunilryo/Images/blob/main/redline%204.png)
+
+>Create an empty folder named Testing, and add it by clicking on the Browse tab.
+
+![Mandiant Redline](https://github.com/sunilryo/Images/blob/main/redline%205.png)
+
+>Run Command Prompt as an administrator and navigate to the directory named "temporary".
+
+![CMD](https://github.com/sunilryo/Images/blob/main/redline%207.png)
+
+>Run the batch file ./RunRedlineAudit.bat that creates new folders named Sessions, AnalysisSession1
+
+![CMD](https://github.com/sunilryo/Images/blob/main/redline%208.png)
+
+>Navigate to Sessions > AnalysisSession1 we will find the .mans file, which is analyzed through Redline
+
+![CMD](https://github.com/sunilryo/Images/blob/main/Redline%209.png)
+
+>Open Mandian Redline, click on "Open Previous Analysis>"
+
+![Mandiant Redline](https://github.com/sunilryo/Images/blob/main/redline%2010.png)
+
+>Select the file with the .mans extension, and it will be loaded into Redline. Then, click on the IOC Reports tab located at the bottom.
+
+>![Mandiant Redline](https://github.com/sunilryo/Images/blob/main/redline%2011.png)
+
+>We have identified the same malware signatures within our organization by using IOCs from other sources.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
