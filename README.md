@@ -129,6 +129,7 @@ After completing the remediations, the final phase of the incident response, whi
 <h3> Step-1  Create IOCs for both malware samples </h3>
 
 >Use **Virustotal** to find md5, sha1, sha256, size details
->
+![Virus Total Ioc1](https://github.com/sunilryo/Images/blob/main/virustotal%201.png)
+
 
 
