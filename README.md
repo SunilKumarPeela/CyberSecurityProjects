@@ -145,7 +145,7 @@ File size: 830728 bytes
 <h3> Step-2  Create IOC2 for malware 2 </h3>
 
 >Use **Virustotal** to find md5, sha1, sha256, size details
-![Virus Total Ioc1]([https://github.com/sunilryo/Images/blob/main/virustotal%201.png](https://github.com/sunilryo/Images/blob/main/Virustotal2.png))
+![Virus Total Ioc1](https://github.com/sunilryo/Images/blob/main/Virustotal2.png)
 
 > Right-click on the malware file and click on properties to know the file name
 
