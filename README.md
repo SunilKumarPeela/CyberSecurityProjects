@@ -171,8 +171,20 @@ File size - 402330 bytes
 
 ![Mandiant IOC](https://github.com/sunilryo/Images/blob/main/ioc2.png)
 
-Indicators of Compromise (IOCs) generated from known malware samples received from an external source.
+>Indicators of Compromise (IOCs) generated from known malware samples received from an external source.
 
 <h3> Step-4 Create IOC collector using Mandiant RedLine </h3>
 
-Open Mandiant Redline and click on "**Create an IOC Search Collector**"
+>Open Mandiant Redline and click on "**Create an IOC Search Collector**"
+
+![Mandiant Redline](https://github.com/sunilryo/Images/blob/main/redline%201.png)
+
+>Browse the path where IOCs got stored
+
+![Mandiant Redline](https://github.com/sunilryo/Images/blob/main/redline%202.png)
+
+> click on "Edit your script" for customization
+
+![Mandiant Redline](https://github.com/sunilryo/Images/blob/main/redline%203.png)
+
+
