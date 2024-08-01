@@ -166,3 +166,7 @@ File size - 402330 bytes
 >*IOC1*
 
 ![Mandiant IOC](https://github.com/sunilryo/Images/blob/main/IOC1.png)
+
+>*IOC2*
+
+![Mandiant IOC](https://github.com/sunilryo/Images/blob/main/ioc2.png)
