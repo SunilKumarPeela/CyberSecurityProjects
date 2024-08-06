@@ -248,6 +248,34 @@ An agent is a software program installed on a device, such as a server or endpoi
 
   ![Elastic Defend](https://github.com/sunilryo/Images/blob/main/s1.png)
 
+  >click on "Add Elastic Defend"
+
+  ![Add electic Defend](https://github.com/sunilryo/Images/blob/main/s2.png)
+
+  >Now click on "Install Elastic Agent"
+
+  ![Install](https://github.com/sunilryo/Images/blob/main/s3.png)
+  
+  >Scroll down to find the code below the Linux tab. We use kali Linux to generate events, select Linux, and copy the code available.
+
+  ![Agent code](https://github.com/sunilryo/Images/blob/main/s4.png)
+ 
+  >Paste the code into a bash script on Kali Linux and run the command to connect the agent to Elastic.
+
+   ![Agent code](https://github.com/sunilryo/Images/blob/main/s5.png)
+
+   ![Agent connected](https://github.com/sunilryo/Images/blob/main/s6.png)
+
+  >Now in elastic website, it is displayed as *agent enrolled*. Click on "Add the Integration"
+
+   ![Integration added](https://github.com/sunilryo/Images/blob/main/s7.png)
+
+
+
+
+
+
+
 
 
 
