@@ -230,6 +230,12 @@ step-1: Open Elastic Account
 
 >I have opened Elastic website and logged into my account
 
+![Elastic](https://github.com/sunilryo/Images/blob/main/Elastic.png)
+
+step-2: Open Kali Linux in VM box
+
+
+
 
 
 
