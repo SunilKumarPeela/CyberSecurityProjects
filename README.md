@@ -266,10 +266,17 @@ An agent is a software program installed on a device, such as a server or endpoi
 
    ![Agent connected](https://github.com/sunilryo/Images/blob/main/s6.png)
 
+  >It will automatically start collecting and forwarding logs to your Elastic SIEM instance, although it might take a few minutes for the logs to appear in the SIEM.
+
   >Now in elastic website, it is displayed as *agent enrolled*. Click on "Add the Integration"
 
    ![Integration added](https://github.com/sunilryo/Images/blob/main/s7.png)
 
+   >You can confirm that the agent has been installed correctly by running the following command:
+   ```plaintext
+   sudo systemctl status elastic-agent.service.
+   ```
+   ![status check](https://github.com/sunilryo/Images/blob/main/s8.png)
 
 
 
