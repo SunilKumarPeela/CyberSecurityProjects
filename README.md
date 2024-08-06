@@ -221,6 +221,8 @@ File size - 402330 bytes
 
 >We have identified the same malware signatures within our organization by using IOCs from other sources.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
 <h1> Elastic SIEM LAB</h1>
 <h2> Scenario</h2>
 
