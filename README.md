@@ -295,6 +295,57 @@ An agent is a software program installed on a device, such as a server or endpoi
 
    ![nmap](https://github.com/sunilryo/Images/blob/main/Nmap01.png)
 
+**Step-5 Searching for Security Events in Elastic SIEM**
+
+Now that I have forwarded data from the Kali VM to the SIEM, I can start querying and analyzing the logs in the SIEM.
+
+     >click on *logs* tab under Observability
+
+   ![log](https://github.com/sunilryo/Images/blob/main/log1.png)
+
+     >In the search bar enter the below log query
+
+  ```plaintext
+     process.args: "nmaps"
+  ```
+
+  ![log](https://github.com/sunilryo/Images/blob/main/log2.png)
+
+    >click on view on any shown results to view the nmap encounter
+
+  ![log](https://github.com/sunilryo/Images/blob/main/view.png)
+
+  By generating and analyzing various types of security events in Elastic SIEM, such as the ones mentioned above or by creating authentication failures (e.g., entering the wrong password for a user or attempting 
+  SSH logins with incorrect credentials), you can gain a deeper understanding of how security incidents are detected, investigated, and managed in real-world scenarios.
+
+**Step-6 Create Dashboards to visualize Events**
+
+we can also utilize the visualizations and dashboards within the SIEM app to analyze logs and identify patterns or anomalies in the data. For instance, you could create a straightforward dashboard that 
+displays a count of security events over time.
+
+     >Click on *dashboard* that is under analytics
+
+  ![dashboard](https://github.com/sunilryo/Images/blob/main/dashboard.png)
+
+     >click on "Create Dashboard"
+
+  ![dashboard2](https://github.com/sunilryo/Images/blob/main/dashboard2.png)
+
+     >select on "create Visualization"
+
+  ![Visualization](https://github.com/sunilryo/Images/blob/main/visualization.png)
+
+     >Select "Area" as the Visualization type, "Count" as the Vertical Field, and "Timestamp" for horizontal field
+
+     > We see the graph below that shows the Nmap counts
+
+  ![metrics](https://github.com/sunilryo/Images/blob/main/metrics.png)
+
+  
+
+  
+
+  
    
 
 
