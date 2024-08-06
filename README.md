@@ -232,7 +232,23 @@ step-1: Open Elastic Account
 
 ![Elastic](https://github.com/sunilryo/Images/blob/main/Elastic.png)
 
-step-2: Open Kali Linux in VM box
+step-2: Kali Linux to generate alerts
+
+>I opened Kali-Linux in VM virtual box
+
+![Kali-Linux](https://github.com/sunilryo/Images/blob/main/KaliLinux.png)
+
+Step-3: Setting up Agent to collect logs
+
+An agent is a software program installed on a device, such as a server or endpoint, to gather and transmit data to a centralized system for analysis and monitoring. In the context of Elastic SIEM, an agent collects and forwards security-related events from your endpoints to your Elastic SIEM instance.
+
+     > click on **integration** on top right
+
+     >select "Elastic Defend"
+
+  ![Elastic Defend](https://github.com/sunilryo/Images/blob/main/s1.png)
+
+
 
 
 
