@@ -271,12 +271,31 @@ An agent is a software program installed on a device, such as a server or endpoi
   >Now in elastic website, it is displayed as *agent enrolled*. Click on "Add the Integration"
 
    ![Integration added](https://github.com/sunilryo/Images/blob/main/s7.png)
+   
 
    >You can confirm that the agent has been installed correctly by running the following command:
+>
    ```plaintext
    sudo systemctl status elastic-agent.service.
    ```
    ![status check](https://github.com/sunilryo/Images/blob/main/s8.png)
+
+ Step-4: Generating Security Events on Kali VM
+ 
+ To verify that the agent was working correctly, I generated some security-related events on my Kali VM using a tool like Nmap. Nmap (Network Mapper) is a free and open-source utility used for network 
+ exploration, management, and security auditing. It was designed to discover hosts and services on a computer network, thus creating a "map" of the network. Nmap was used to scan hosts for open ports, determine 
+ the operating system and software running on the target system, and gather other information about the network.
+
+   >insert following commands in VM
+
+   ```plaintext
+   nmap -p- localhost
+   nmap -Ss localhost
+   ```
+
+   ![nmap](https://github.com/sunilryo/Images/blob/main/Nmap01.png)
+
+   
 
 
 
