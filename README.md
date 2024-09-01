@@ -381,7 +381,7 @@ Open
 ```plaintext
 Entra.microsoft.com
 ```
-
+![EntraOpenPage](https://github.com/sunilryo/Images/blob/main/1Entra.png)
   
 
   
