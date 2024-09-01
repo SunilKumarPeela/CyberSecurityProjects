@@ -395,6 +395,13 @@ Create New User
 ```
 ![Create New User](https://github.com/sunilryo/Images/blob/main/1NewUser.png)
 
+Create new user principal named 'gpuser1' and select
+
+```plaintext
+NextProperties
+```
+![continuation](https://github.com/sunilryo/Images/blob/main/1GPUser1.png)
+
 
 
   
