@@ -896,7 +896,7 @@ This is how privileged Identity Management is done in Microsoft Azure
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2> *Monitoring Identity Secure Score*</h2>
+<h2> **Monitoring Identity Secure Score** </h2>
 
 Click on
 
