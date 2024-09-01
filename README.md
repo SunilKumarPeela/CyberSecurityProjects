@@ -548,11 +548,15 @@ Select 'Selected' for self service password reset enabled
 
 Click on 
 
+```plaintext
+No groups selected
+```
+
 ![Nogroupselected](https://github.com/sunilryo/Images/blob/main/3NoGroupSelected.png)
 
 Select the group 'GPSSPR' to assign the password reset functionality
 
-![GroupSelection](https://github.com/sunilryo/Images/blob/main/3ppasswordreset.png)
+![GroupSelection](https://github.com/sunilryo/Images/blob/main/3SelectGroup.png)
 
 Now self-service password reset is enabled for the users in the group GPSSPR
 
