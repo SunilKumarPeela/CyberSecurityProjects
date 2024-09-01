@@ -373,7 +373,11 @@ In a SIEM, alerts were a crucial feature for detecting security incidents and re
 
 Whenever the SIEM detects an Nmap instance, it generates an alert and sends a notification via email.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 <h1> Microsoft Azure Project</h1>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h2> *Create User and Groups*</h2>
 
@@ -452,6 +456,8 @@ Now we test the newly created user accounts by logging in
 Now similarly user2 opened
 
 ![User2 account](https://github.com/sunilryo/Images/blob/main/1User2AccountOpened.png)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h2> *Assign Users to Groups*</h2>
 
@@ -571,6 +577,8 @@ Authentication methods
 ```
 ![Authentication](https://github.com/sunilryo/Images/blob/main/3AuthentiicationMethod.png)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 <h2> *Configure Conditional Access*</h2>
 
 Click on 
@@ -662,6 +670,8 @@ You will see the tab that shows how many enable policies exist as below
 ![ViewList](https://github.com/sunilryo/Images/blob/main/4policy.png)
 
 If you open the Azure account of user 2, try to access Bing services. It will show "You have no permission to access"
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h2> *Configure Priviliged Identity Management*</h2>
 
@@ -896,7 +906,7 @@ This is how privileged Identity Management is done in Microsoft Azure
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2> **Monitoring Identity Secure Score** </h2>
+<h2> *Monitoring Identity Secure Score* </h2>
 
 Click on
 
