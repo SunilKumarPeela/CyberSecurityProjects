@@ -714,6 +714,201 @@ Assign
 ```
 ![AssignUser](https://github.com/sunilryo/Images/blob/main/5Assignuser.png)
 
+Once the license is assigned, we will verify the settings of Azure DevOps Administrator Role and allow GP User1 to request the Role assignment
+
+Go to home page and select
+
+```plaintext
+Privileged Identity Management
+```
+
+![PIM](https://github.com/sunilryo/Images/blob/main/6IPM.png)
+
+Select
+
+```plaintext
+Microsoft Entra Roles
+```
+
+![Entra Roles](https://github.com/sunilryo/Images/blob/main/6EntraRoles.png)
+
+Select
+
+```plaintext
+Settings
+```
+
+![Settings](https://github.com/sunilryo/Images/blob/main/6Settings.png)
+
+Search for "Azure DevOps Administrator" and click on it
+
+![AzureDevOps](https://github.com/sunilryo/Images/blob/main/6AzureDevOps.png)
+
+Click on 
+
+```plaintext
+Edit
+```
+
+![Editing](https://github.com/sunilryo/Images/blob/main/6Edit.png)
+
+Check on "Require Approval to activate" and select
+
+```plaintext
+No approver selected
+```
+So this will add an option for the admin to approve requests
+
+![Adding allow option for admin to approve requests](https://github.com/sunilryo/Images/blob/main/6Approval.png)
+
+Select "sunil peela" admin user and click on select
+
+![Admin user](https://github.com/sunilryo/Images/blob/main/6SelectUser.png)
+
+click on
+
+```plaintext
+Update
+```
+
+![Update](https://github.com/sunilryo/Images/blob/main/6Updaterole.png)
+
+We have successfully assigned admin user the permissions to approve or deny the requests sent by other users.
+
+Now we add an assignment for the gpuser1 for the role to use temporarily
+
+select 
+
+```plaintext
+Roles
+```
+under the Manage section.
+
+![Roles](https://github.com/sunilryo/Images/blob/main/6Roless.png)
+
+Click on 
+
+```plaintext
++Add Assignment
+```
+
+![Assignment](https://github.com/sunilryo/Images/blob/main/6Assignments.png)
+
+select Role as "Azure DevOps Administrator"
+
+and click on 
+
+```plaintext
+No member selected
+```
+
+![Assignments to role](https://github.com/sunilryo/Images/blob/main/6assigning.png)
+
+click on "GPUser1" and select
+
+![Selected user](https://github.com/sunilryo/Images/blob/main/6selecteduser.png)
+
+Now click on Next > Assign
+
+![Assigned Role to Member](https://github.com/sunilryo/Images/blob/main/6Assignedroletomembr.png)
+
+So we have created an assignment for gpuser1 for "Azure DevOps Administrator" role. 
+
+Now switch to the gpuser1 account to view the assignment and click on 
+
+```plaintext
+Privileged Identity Management
+```
+
+![PIM in other account](https://github.com/sunilryo/Images/blob/main/6Otheraccount.png)
+
+select
+
+```plaintext
+My roles
+```
+
+![My Roles](https://github.com/sunilryo/Images/blob/main/6Myroles.png)
+
+Now you can see gpuser1 has the option to request for "Azure DevOps Administrator" role by *Activate* option
+
+![Eligible](https://github.com/sunilryo/Images/blob/main/6Eligibleassignment.png)
+
+Under *active assignment* we see the actual role of the user 
+
+![SActualrole](https://github.com/sunilryo/Images/blob/main/6activeassignment.png)
+
+click on
+
+```plaintext
+Activate
+```
+
+![Activate](https://github.com/sunilryo/Images/blob/main/6Activate.png)
+
+Enter the reason as "Testing" and click on
+
+```plaintext
+Activate
+```
+
+![Activate with reason](https://github.com/sunilryo/Images/blob/main/6Activateit.png)
+
+The request is pending for approval from the admin "Sunil Peela" 
+
+Now we switch to the admin profile and click on 
+
+```plaintext
+Privileged Identity Management
+```
+
+![PIM Admin](https://github.com/sunilryo/Images/blob/main/6Loggedinaccountback.png)
+
+Select
+
+```plaintext
+Approve requests
+```
+
+![Approve requests](https://github.com/sunilryo/Images/blob/main/6Request.png)
+
+Select the request receive and click on 
+
+```plaintext
+"Approve
+```
+
+![Request Approved](https://github.com/sunilryo/Images/blob/main/6Approvedd.png)
+
+Enter the justification as "Testing" and select
+
+```plaintext
+Confirm
+```
+
+![Confirm](https://github.com/sunilryo/Images/blob/main/6confiorm.png)
+
+Now switch to gpuser1 to check role assignment
+
+![Role assigned](https://github.com/sunilryo/Images/blob/main/6roleassigned.png)
+
+This is how privileged Identity Management is done in Microsoft Azure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
