@@ -435,6 +435,28 @@ Displays All users
 
 ![All users](https://github.com/sunilryo/Images/blob/main/1DisplayUsers.png)
 
+Similarly, create another new user principal named 'gpuser2' and assign role 'Application developer'
+
+![User 2](https://github.com/sunilryo/Images/blob/main/1User2AdminRole.png)
+
+List of all users displayed
+
+![listOfUsers](https://github.com/sunilryo/Images/blob/main/UserList.png)
+
+Now we test the newly created user accounts by logging in
+
+![testing](https://github.com/sunilryo/Images/blob/main/1User1Check.png)
+
+![User1 account](https://github.com/sunilryo/Images/blob/main/1User1AccountOpened.png)
+
+Now similarly user2 opened
+
+![User2 account](https://github.com/sunilryo/Images/blob/main/1User2AccountOpened.png)
+
+<h2> *Assign Users to Groups*</h2>
+
+
+
 
 
 
