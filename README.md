@@ -509,7 +509,7 @@ The final group list we created displayed as
 
 <h2> *Configure Self-Service Password Reset*</h2>
 
-Now, We provide self-service password reset assess to users without the need of admin 
+Now, We provide self-service password reset access to users without the need of admin 
 
 open 
 
@@ -570,6 +570,102 @@ We can check if it is 1 factor or 2 factor by clicking
 Authentication methods
 ```
 ![Authentication](https://github.com/sunilryo/Images/blob/main/3AuthentiicationMethod.png)
+
+<h2> *Configure Conditional Access*</h2>
+
+Click on 
+
+```plaintext
+Conditional access
+```
+
+![Conditional Access](https://github.com/sunilryo/Images/blob/main/4ConditionalAccess.png)
+
+Click on
+
+```plaintext
+Create new policy
+```
+
+![New Policy](https://github.com/sunilryo/Images/blob/main/4CreatingNewPolicy.png)
+
+We have to disable the security defaults to provide more protection. To disable click on 
+
+```plaintext
+disable security defaults
+```
+
+![Security Defaults](https://github.com/sunilryo/Images/blob/main/4DisabblesecurityDefaults.png)
+
+opt on 'Disabled' and select 'My organization is planning to use conditional access' and then save
+
+![Disabled default](https://github.com/sunilryo/Images/blob/main/4Save.png)
+
+now select disabled
+
+![Disabled](https://github.com/sunilryo/Images/blob/main/4Disabled.png)
+
+Enter the name as "GP CA Policy" 
+
+![Users](https://github.com/sunilryo/Images/blob/main/4SelectuserandGroup.png)
+
+Now select
+
+```plaintext
+0 users and groups selected
+```
+
+![Select users](https://github.com/sunilryo/Images/blob/main/4Users.png)
+
+click on "GP User2"
+
+![User2](https://github.com/sunilryo/Images/blob/main/4GPUser2.png)
+
+click on 
+
+```plaintext
+target resource
+```
+
+and then select the app you want to take action on, I have chosen *Bing* to have conditional access on
+
+![AppSelection](https://github.com/sunilryo/Images/blob/main/4Bong.png)
+
+As you can see here, we have additional conditions like location and device platform to opt. For now I am keeping it as it is 
+
+![Conditions](https://github.com/sunilryo/Images/blob/main/4Conditions.png)
+
+Now click on 
+
+```plaintext
+0 controls selected
+```
+
+that is located under Grand tab and select 
+
+```plaintext
+Block access
+```
+
+![Block access](https://github.com/sunilryo/Images/blob/main/4Blockaccess.png)
+
+Select "Enable policy" ON abd click on 
+
+```plaintext
+Create
+```
+
+![Enable policy](https://github.com/sunilryo/Images/blob/main/4EnablePolicy.png)
+
+You will see the tab that shows how many enable policies exist as below 
+
+![ViewList](https://github.com/sunilryo/Images/blob/main/4policy.png)
+
+If you open the Azure account of user 2, try to access Bing services. It will show "You have no permission to access"
+
+<h2> *Configure Priviliged Identity Management*</h2>
+
+
 
 
 
