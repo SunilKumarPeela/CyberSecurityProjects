@@ -505,7 +505,7 @@ Now, Create another new group of microsoft365 type with the Group name'GPM365Gro
 
 The final group list we created displayed as 
 
-[FinalGroups](https://github.com/sunilryo/Images/blob/main/2Grouplist.png)
+![FinalGroups](https://github.com/sunilryo/Images/blob/main/2Grouplist.png)
 
 
 
