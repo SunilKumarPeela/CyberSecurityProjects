@@ -542,6 +542,10 @@ User settings
 
 Now select
 
+```plaintext
+Password reset
+```
+
 ![Password Reset](https://github.com/sunilryo/Images/blob/main/3ppasswordreset.png)
 
 Select 'Selected' for self service password reset enabled
