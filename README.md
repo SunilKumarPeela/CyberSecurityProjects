@@ -455,6 +455,60 @@ Now similarly user2 opened
 
 <h2> *Assign Users to Groups*</h2>
 
+There are two tyes of Groups that we can create which are "Security" Group and "Microsoft 365" Group
+
+The steps for creating a group as follows
+
+Open 
+
+```plaintext
+https://entra.microsoft.com/
+```
+Click on
+
+```plaintext
+Allgroups
+```
+![AllGroups](https://github.com/sunilryo/Images/blob/main/2AllGroups.png)
+
+Select
+
+```plaintext
+New group
+```
+![NewGroup](https://github.com/sunilryo/Images/blob/main/2newGroup.png)
+
+Now we create a Security Group type with the group name "GPSecurityGroup"
+click on 
+
+```plaintext
+No members selected
+```
+![Selecting members](https://github.com/sunilryo/Images/blob/main/2NomembersSelected.png)
+
+So that we can add the new members to this group.
+Now select 'GPUser1' and 'GPUser2' 
+
+![MemebersSelected](https://github.com/sunilryo/Images/blob/main/2SelectUsers.png)
+
+Once the users are selected, click on Create to create GPSecurityGroup 
+
+![GPSecurityGroup](https://github.com/sunilryo/Images/blob/main/2GroupCreated.png)
+
+Once it is created, the group is displayed as
+
+![GroupDisplay](https://github.com/sunilryo/Images/blob/main/2DisplayGroup.png)
+
+Now, Create another new group of microsoft365 type with the Group name'GPM365Group' buy selecting users we wish to add
+
+![GroupName2](https://github.com/sunilryo/Images/blob/main/2Group2Created.png)
+
+The final group list we created displayed as 
+
+[FinalGroups](https://github.com/sunilryo/Images/blob/main/2Grouplist.png)
+
+
+
 
 
 
