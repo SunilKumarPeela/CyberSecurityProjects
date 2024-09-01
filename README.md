@@ -417,6 +417,13 @@ Application Administrator
 
 ![AdministratorRole](https://github.com/sunilryo/Images/blob/main/1AdministratorRole.png)
 
+Click on
+
+```plaintext
+Next:Review + Create
+```
+
+
 
 
 
