@@ -373,6 +373,10 @@ In a SIEM, alerts were a crucial feature for detecting security incidents and re
 
 Whenever the SIEM detects an Nmap instance, it generates an alert and sends a notification via email.
 
+<h1> Microsoft Azure Project</h1>
+
+<h2> Create User and Groups</h2>
+
 
   
 
