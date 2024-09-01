@@ -431,6 +431,12 @@ Create
 ```
 ![Create User](https://github.com/sunilryo/Images/blob/main/1Created.png)
 
+Displays All users
+
+![All users](https://github.com/sunilryo/Images/blob/main/1DisplayUsers.png)
+
+
+
 
 
 
