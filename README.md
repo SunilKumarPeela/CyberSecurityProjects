@@ -507,6 +507,62 @@ The final group list we created displayed as
 
 ![FinalGroups](https://github.com/sunilryo/Images/blob/main/2Grouplist.png)
 
+<h2> *Configure Self-Service Password Reset*</h2>
+
+Now, We provide self-service password reset assess to users without the need of admin 
+
+open 
+
+```plaintext
+https://entra.microsoft.comm
+```
+click on 
+
+```plaintext
+New group
+```
+
+![NewGroup](https://github.com/sunilryo/Images/blob/main/3AllGroups.png)
+
+Add the Group name as 'GPSSPR' and select the users 'GP User1' and 'GP User2' to add by clicking on 'No Members Selected' and click on select
+
+![GPSSPR](https://github.com/sunilryo/Images/blob/main/3CreatingGroup.png)
+
+The group created is displayed as follows 
+
+![Group Created](https://github.com/sunilryo/Images/blob/main/3Groupcreated.png)
+
+Click on 
+
+```plaintext
+User settings
+```
+
+![User settings](https://github.com/sunilryo/Images/blob/main/3IDENTITY.png)
+
+Now select
+
+![Password Reset](https://github.com/sunilryo/Images/blob/main/3ppasswordreset.png)
+
+Select 'Selected' for self service password reset enabled
+
+Click on 
+
+![Nogroupselected](https://github.com/sunilryo/Images/blob/main/3NoGroupSelected.png)
+
+Select the group 'GPSSPR' to assign the password reset functionality
+
+![GroupSelection](https://github.com/sunilryo/Images/blob/main/3ppasswordreset.png)
+
+Now self-service password reset is enabled for the users in the group GPSSPR
+
+We can check if it is 1 factor or 2 factor by clicking 
+
+```plaintext
+Authentication methods
+```
+![Authentication](https://github.com/sunilryo/Images/blob/main/3AuthentiicationMethod.png)
+
 
 
 
