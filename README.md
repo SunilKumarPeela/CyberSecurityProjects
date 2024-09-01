@@ -402,6 +402,23 @@ NextProperties
 ```
 ![continuation](https://github.com/sunilryo/Images/blob/main/1GPUser1.png)
 
+Click on
+
+```plaintext
+Add Role
+```
+![AddRole](https://github.com/sunilryo/Images/blob/main/1AddRole.png)
+
+Select
+
+```plaintext
+Application Administrator
+```
+
+![AdministratorRole](https://github.com/sunilryo/Images/blob/main/1AdministratorRole.png)
+
+
+
 
 
   
