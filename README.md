@@ -377,18 +377,25 @@ Whenever the SIEM detects an Nmap instance, it generates an alert and sends a no
 
 <h2> *Create User and Groups*</h2>
 
-1. Open 
+Open 
 ```plaintext
 Entra.microsoft.com
 ```
 Click on 
 
 ```plaintext 
-allusers
+All Users
 ```
 ![EntraOpenPage](https://github.com/sunilryo/Images/blob/main/1Entra.png)
 
-  
+click on
+
+```plaintext
+Create New User
+```
+![Create New User](https://github.com/sunilryo/Images/blob/main/1NewUser.png)
+
+
 
   
    
