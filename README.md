@@ -888,11 +888,34 @@ Confirm
 
 ![Confirm](https://github.com/sunilryo/Images/blob/main/6confiorm.png)
 
-Now switch to gpuser1 to check role assignment
+Now switch to gpuser1 to check the role assignment
 
 ![Role assigned](https://github.com/sunilryo/Images/blob/main/6roleassigned.png)
 
 This is how privileged Identity Management is done in Microsoft Azure
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2> *Monitoring Identity Secure Score*</h2>
+
+Click on
+
+```plaintext
+Identity secure score
+```
+
+which is under the *Protection* section
+
+![Protection](https://github.com/sunilryo/Images/blob/main/7Identityscore.png)
+
+The secure score for identity will be displayed as shown below
+
+![IdentityScore](https://github.com/sunilryo/Images/blob/main/7securescore.png)
+
+Click on any Improvement actions to see the score impact and description
+
+![Final](https://github.com/sunilryo/Images/blob/main/7assigned.png)
+
 
 
 
