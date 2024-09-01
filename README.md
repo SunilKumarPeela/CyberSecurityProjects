@@ -665,6 +665,59 @@ If you open the Azure account of user 2, try to access Bing services. It will sh
 
 <h2> *Configure Priviliged Identity Management*</h2>
 
+First p2 licenses to be assigned to users
+
+Click on Billing > Licences and then select
+
+```plaintext
+All products
+```
+
+![License](https://github.com/sunilryo/Images/blob/main/5License.png)
+
+click on
+
+```plaintext
+Microsoft Entra ID P2
+```
+
+![EntraID](https://github.com/sunilryo/Images/blob/main/5EntraIDLicense.png)
+
+click on 
+
+```plaintext
++Assign
+```
+
+![Assign](https://github.com/sunilryo/Images/blob/main/5Assign.png)
+
+click on
+
+```plaintext
++Add Users and groups
+```
+
+![AddUsers](https://github.com/sunilryo/Images/blob/main/5AddUser.png)
+
+Select the user "Sunil Peela" and click on 
+
+```plaintext
+Select
+```
+
+![SelectUser](https://github.com/sunilryo/Images/blob/main/5addeduser.png)
+
+Now select
+
+```plaintext
+Assign
+```
+![AssignUser](https://github.com/sunilryo/Images/blob/main/5Assignuser.png)
+
+
+
+
+
 
 
 
