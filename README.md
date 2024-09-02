@@ -1013,6 +1013,13 @@ I am creating a Windows Virtual Machine to host a new website for Sam Scoops. I 
     3. Name: Enter "Web_Server" as the name of the virtual network.
 
     4. Region: the region that is closest to you.
+    
+![Resources](https://github.com/sunilryo/Images/blob/main/9Resource.png)
+
+**Step 5**
+
+
+
 
 
 
