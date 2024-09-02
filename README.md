@@ -1084,6 +1084,80 @@ Once the virtual network is created, you can proceed with creating the virtual m
 
 ![WindowsCreate](https://github.com/sunilryo/Images/blob/main/10ser.png)
 
+**Step 4**
+
+>In the Basics tab of the Create a Virtual Machine wizard, fill out the following information:
+
+    1. Subscription:  The subscription that you want to use.
+
+    2. Resource group: The existing resource group, RG_Web_Server.
+
+    3. Virtual machine name: Enter "SamScoopsWeb".
+
+    4. Region: The region that is closest to you.
+
+    5. Image: Windows Server 2022 Datacenter –x64 Gen2.
+
+    6. Size:  An appropriate size for your virtual machine. It will be good idea to cheapest option for this exercise.
+
+    7. Username: AzAdmin
+
+    8. Password: P@$$@1234567
+
+    9. Confirm Password: P@$$@1234567
+
+![Disks](https://github.com/sunilryo/Images/blob/main/10disks.png)
+
+**Step 5**
+
+>Select the Next: Disks button to proceed to the Disks tab.
+
+**Step 6**
+
+>Leave the default settings for OS disk and select the Next: Networking button to proceed to the Networking tab.
+
+![Networking](https://github.com/sunilryo/Images/blob/main/10networking.png)
+
+**Step 7**
+
+>In the Networking tab, select the following settings:
+
+    1. Virtual network:  Web_Server.
+
+    2. Subnet:  default.
+
+    3. Public IP:  Create new and enter a name for the new public IP address.
+
+    4. NIC network security group: Leave the default setting.
+
+**Step 8**
+
+>Select the Next: Management button to proceed to the Management tab.
+
+![Management](https://github.com/sunilryo/Images/blob/main/10management1.png)
+
+**Step 9**
+
+>In the Management tab, leave the default settings and select the Next: Monitoring button to proceed to the Monitoring tab. Leave everything as default. Then select the Next: Advanced button to proceed to the Advanced tab.
+
+![Monitoring](https://github.com/sunilryo/Images/blob/main/10monitoring.png)
+
+**Step10**
+
+>In the Advanced tab, leave the default settings and select the Review + create button.
+
+![Advanced](https://github.com/sunilryo/Images/blob/main/10advanced.png)
+
+![Review](https://github.com/sunilryo/Images/blob/main/10review.png)
+
+**Step11**
+
+>Review the settings for your virtual machine and select the Create button to create your virtual machine and wait for deployment.
+
+The virtual machine is now deployed. You are now ready for the next phase where you need to connect to the virtual machine.
+
+>
+
 
 
 
