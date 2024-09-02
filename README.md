@@ -998,6 +998,25 @@ I am creating a Windows Virtual Machine to host a new website for Sam Scoops. I 
 
 **Step 3**
 
+>Next, search for "Virtual network" in the search bar, select **Virtual network** from the results and select **Create**.
+
+![VN](https://github.com/sunilryo/Images/blob/main/9VN.png)
+
+**Step 4**
+
+>In the Basics tab of the Create a Virtual Network wizard, fill out the following information:
+
+    1. Subscription:  the subscription that you want to use.
+
+    2. Resource group:  Create a new one and enter "RG_Web_Server" as the name of the new resource group.
+
+    3. Name: Enter "Web_Server" as the name of the virtual network.
+
+    4. Region: the region that is closest to you.
+
+
+
+
 
 
 
