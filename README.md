@@ -934,9 +934,13 @@ Click on any Improvement actions to see the score impact and description
 
 DDOS protection plan is used by various organizations to protect the network infrastructure from DDOS attacks. These are the following steps to set up a DDOS plan in Microsoft Azure.
 
-    >Click on "Create Resource"
+    Click on "Create Resource"
     
   ![Resourcce](https://github.com/sunilryo/Images/blob/main/8CreateResource.png)
+
+    Search "DDOSprotectionplan" and select it
+
+  ![DDOSprotectionPlan](https://github.com/sunilryo/Images/blob/main/8DDOS%20protection.png)
 
 
 
