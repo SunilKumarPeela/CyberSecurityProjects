@@ -975,9 +975,14 @@ DDOS protection plan is used by various organizations to protect the network inf
 
   ![Ddos](https://github.com/sunilryo/Images/blob/main/88as.png)
 
-    Create on create
+    Click on create
   This will link DDoS Protection plan with the Virtual Network
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h1> Create a Windows Virtual Machine in the Azure Portal </h1>
+
+I am creating a Windows Virtual Machine to host a new website for Sam Scoops. I am deploying the virtual machine for the Sam’s Scoops web server using the virtual network Web_Server on a 172.16.1.0 subnet. This virtual machine is named as "SamScoopsWeb".  
 
 
 
