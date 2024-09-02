@@ -951,7 +951,32 @@ DDOS protection plan is used by various organizations to protect the network inf
   ![Name](https://github.com/sunilryo/Images/blob/main/8Name.png)
 
      click on "Review and Create" and click on "Create"
-  Now the DDOS protection plan have been created
+  Now the DDOS protection plan has been created
+
+  <h2> *Connecting DDOS protection plan to Virtual Network *</h2>
+
+    We now create a virtual network by clicking on "Create Resources"
+
+  ![CreateVirtualNetwork](https://github.com/sunilryo/Images/blob/main/88Createvirtual.png)
+
+    Search Virtual Network and select "Virtual network"
+
+  ![Selection](https://github.com/sunilryo/Images/blob/main/88VN.png)
+
+    Click on "Create"
+
+  ![Create](https://github.com/sunilryo/Images/blob/main/88Create.png)
+
+    Select the Resource Group as "RG_Web_Server" and type the name as "MyVnet"
+
+  ![Vnet](https://github.com/sunilryo/Images/blob/main/88donevn.png)
+
+    Click on "Enable Azure DDoS protection" and select Plan1 in Dos Protection plan
+
+  ![Ddos](https://github.com/sunilryo/Images/blob/main/88as.png)
+
+    Create on create
+  This will link DDoS Protection plan with the Virtual Network
 
 
 
