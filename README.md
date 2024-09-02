@@ -990,6 +990,14 @@ I am creating a Windows Virtual Machine to host a new website for Sam Scoops. I 
 
 >Sign in to the [Azure portal](https://portal.azure.com/) with your credentials.
 
+**Step 2**
+
+>In the Azure portal menu, select the Create a resource button located on the left-hand side of the screen.
+
+![Create](https://github.com/sunilryo/Images/blob/main/9create.png)
+
+**Step 3**
+
 
 
 
