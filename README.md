@@ -988,8 +988,8 @@ I am creating a Windows Virtual Machine to host a new website for Sam Scoops. I 
 
 >**Step 1**
 
-      Sign in to the [Azure portal](https://portal.azure.com/) with your credentials.
-  [Azure portal](https://portal.azure.com/)
+  Sign in to the [Azure portal](https://portal.azure.com/) with your credentials.
+
 
 
 
