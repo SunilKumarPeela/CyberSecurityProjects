@@ -986,9 +986,9 @@ I am creating a Windows Virtual Machine to host a new website for Sam Scoops. I 
 
 <h2>Create Network and Resource Group</h2>
 
->**Step 1**
+**Step 1**
 
-  Sign in to the [Azure portal](https://portal.azure.com/) with your credentials.
+>Sign in to the [Azure portal](https://portal.azure.com/) with your credentials.
 
 
 
