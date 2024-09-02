@@ -1156,9 +1156,33 @@ Once the virtual network is created, you can proceed with creating the virtual m
 
 The virtual machine is now deployed. You are now ready for the next phase where you need to connect to the virtual machine.
 
->
+<h2>Connect to Virtual Machine</h2>
 
+**Step 1**
 
+>Once the deployment is complete, select the Go to resource button to navigate to the virtual machine page.
+
+![Resource](https://github.com/sunilryo/Images/blob/main/11resource.png)
+
+**Step 2**
+
+>On the virtual machine page, select the Connect button.
+
+![Connect](https://github.com/sunilryo/Images/blob/main/11connect.png)
+
+**Step 3**
+
+>Select RDP from the options menu to download the RDP file. Select Download RDP file.
+
+![RDP](https://github.com/sunilryo/Images/blob/main/11RDP.png)
+
+**Step 4**
+
+>Open the downloaded RDP file and connect by using the credentials you have set while creating the virtual machine to connect to the virtual machine.
+
+I have created a Windows virtual machine in the Azure portal for SamScoopsWeb
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
   
