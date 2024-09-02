@@ -942,8 +942,16 @@ DDOS protection plan is used by various organizations to protect the network inf
 
   ![DDOSprotectionPlan](https://github.com/sunilryo/Images/blob/main/8DDOS%20protection.png)
 
+    click on "Create"
 
+  ![Create](https://github.com/sunilryo/Images/blob/main/8Creaate1.png)
 
+     Enter the name as "plan1", select the Resource group as "RG_Web_Server" 
+
+  ![Name](https://github.com/sunilryo/Images/blob/main/8Name.png)
+
+     click on "Review and Create" and click on "Create"
+  Now the DDOS protection plan have been created
 
 
 
