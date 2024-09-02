@@ -1018,6 +1018,32 @@ I am creating a Windows Virtual Machine to host a new website for Sam Scoops. I 
 
 **Step 5**
 
+>Select IP addresses
+
+    1. Delete the default address space by selecting the dots (...) next to Add a Subnet and select Delete Address Space.
+
+  ![Delete](https://github.com/sunilryo/Images/blob/main/9ip.png)
+
+    2. There is a warning: You must add at least one address space to the virtual network.
+
+    3. Select Add an Address Space.
+
+  ![Add](https://github.com/sunilryo/Images/blob/main/9addip.png)
+
+    4. Fill in starting address: 172.16.1.0
+
+    5. Fill in the address space size: /24 (256 Addresses).
+
+  ![Newip](https://github.com/sunilryo/Images/blob/main/9Newip.png)
+
+  
+
+    
+
+    
+
+
+
 
 
 
