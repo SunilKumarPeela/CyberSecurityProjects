@@ -1036,6 +1036,31 @@ I am creating a Windows Virtual Machine to host a new website for Sam Scoops. I 
 
   ![Newip](https://github.com/sunilryo/Images/blob/main/9Newip.png)
 
+**Step 6**
+
+>Now, a Subnet has to be added.
+
+    1. Select + Add a subnet.
+
+    2. Leave the details as default and select Add.
+
+  ![IP](https://github.com/sunilryo/Images/blob/main/9Added.png)
+
+**Step 7**
+
+>Select the **Review+ create** button to review the settings.
+
+![added](https://github.com/sunilryo/Images/blob/main/9review.png)
+
+**Step 8**
+
+>Select the **Create** button to create the virtual network.
+
+![VN created](https://github.com/sunilryo/Images/blob/main/9created.png)
+
+![deployment](https://github.com/sunilryo/Images/blob/main/9vncreated.png)
+  
+
   
 
     
