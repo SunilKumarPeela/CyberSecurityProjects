@@ -926,7 +926,17 @@ Click on any Improvement actions to see the score impact and description
 
 ![Final](https://github.com/sunilryo/Images/blob/main/7assigned.png)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+<h1> Azure Cyber Tools </h1>
+
+<h2> *DDOS Protection Plan*</h2>
+
+DDOS protection plan is used by various organizations to protect the network infrastructure from DDOS attacks. These are the following steps to set up a DDOS plan in Microsoft Azure.
+
+    >Click on "Create Resource"
+    
+    ![Resourcce](https://github.com/sunilryo/Images/blob/main/8CreateResource.png)
 
 
 
