@@ -1076,6 +1076,13 @@ Once the virtual network is created, you can proceed with creating the virtual m
 
 **Step 3**
 
+>Search for "Windows Server" in the search bar and select *Windows Server* from the results.
+
+![Server](https://github.com/sunilryo/Images/blob/main/10windowsserver.png)
+
+    1. Select the *Create* and select *Windows Server 2022 Datacenter: Azure Edition*.
+
+![WindowsCreate](https://github.com/sunilryo/Images/blob/main/10ser.png)
 
 
 
