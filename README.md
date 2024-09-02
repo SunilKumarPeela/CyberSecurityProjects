@@ -936,7 +936,7 @@ DDOS protection plan is used by various organizations to protect the network inf
 
     >Click on "Create Resource"
     
-    ![Resourcce](https://github.com/sunilryo/Images/blob/main/8CreateResource.png)
+  ![Resourcce](https://github.com/sunilryo/Images/blob/main/8CreateResource.png)
 
 
 
