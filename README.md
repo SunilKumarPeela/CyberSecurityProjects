@@ -1187,7 +1187,7 @@ I have created a Windows virtual machine in the Azure portal for SamScoopsWeb
 
 **Step 1: Create a Resource Group**
 
-Create a resource group called "Firewall". This resource group will be used to store anything to do with the Sam’s Scoops firewall like VNets and centralized Azure security services.
+    Create a resource group called "Firewall". This resource group will be used to store anything to do with the Sam’s Scoops firewall like VNets and centralized Azure security services.
 
   >1. Sign in to the [Azure portal](https://portal.azure.com/) with your credentials.
 
