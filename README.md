@@ -1242,10 +1242,37 @@ I have created a Windows virtual machine in the Azure portal for SamScoopsWeb
 
   ![Create](https://github.com/sunilryo/Images/blob/main/02Create.png)
 
-  
+  **Step 3: VNet peering**
+               
+    The Sam’s Scoops Azure network now has a Hub VNet and a spoke VNet containing the virtual machine for the web server. You need to set up VNet peering to allow the two VNets to communicate with each other.
+
+   >1. Select Virtual networks from the Azure services bar.
+>
+   ![VNet](https://github.com/sunilryo/Images/blob/main/03VN.png)
+
+   >2. Select the Firewall-Hub VNet.
+
+   ![FirewallHub](https://github.com/sunilryo/Images/blob/main/03Firewall-hub.png)
+
+   >3. Select Peerings either on the left or on the middle of the page.
+
+   ![Peerings](https://github.com/sunilryo/Images/blob/main/03Peerings.png)
+
+   >4. Select Add to add a new peering.
+
+   >5. Name the peering "Hub-Web".
+
+   >6. Leave the default settings and under Remote virtual network - peering link name type "Web-Hub".
+
+   >7. Under the Virtual network dropdown, select Web_Server.
+
+   >8. Select Add and the network peering will be setup.
+
+   ![PeerDone](https://github.com/sunilryo/Images/blob/main/03Peering%20done.png)
+
+   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
    
-
 
   
 
