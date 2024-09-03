@@ -1317,9 +1317,51 @@ I have created a Windows virtual machine in the Azure portal for SamScoopsWeb
 
    ![FirewallFinal](https://github.com/sunilryo/Images/blob/main/04Final.png)
 
-   
+**Step 2 - Firewall application rules creation**
 
+    The web server will need access to Google once it is set up, so you need to set up an application rule to allow outbound access. To do this, follow these steps:
+
+  >1. From the Azure services bar select Resource groups.
+
+  ![Resource](https://github.com/sunilryo/Images/blob/main/05resource.png)
+
+  ![ReourceDisplay](https://github.com/sunilryo/Images/blob/main/05firewall.png)
+
+  >2. Open the  *Firewall* resource group, and select the  *ScoopsFirewall* firewall.
+
+  ![ScoopsFirewall](https://github.com/sunilryo/Images/blob/main/05rulee.png)
+
+  >3. On the  ScoopsFirewall  page, under  Settings, select  *Rules (classic)*.
+
+  ![Rules](https://github.com/sunilryo/Images/blob/main/05rul.png)
   
+  >4. Select the  *Application rule collection*  tab.
+
+  >5. Select  *Add application rule collection*.
+
+  ![Application](https://github.com/sunilryo/Images/blob/main/05application1.png)
+
+  Select  Add application rule collection.
+
+    For  Name, type  "AppRule1".
+
+    For  Priority, type  "200".
+
+    For  Action, select  Allow.
+
+    Under  Rules, Target FQDNs, for  Name, type  "Allow-Google".
+
+    For  Source type, select  IP address.
+
+    Type  172.16.1.0/24 for the source.
+
+    For Protocol:port, type "http, https".
+
+    For  Target FQDNS, type  "www.google.com".
+
+![ApplicationRules](https://github.com/sunilryo/Images/blob/main/05applicationrule.png)
+
+
 
   
 
