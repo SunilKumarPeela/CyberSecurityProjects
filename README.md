@@ -1361,10 +1361,99 @@ I have created a Windows virtual machine in the Azure portal for SamScoopsWeb
 
 ![ApplicationRules](https://github.com/sunilryo/Images/blob/main/05applicationrule.png)
 
+>6. Select  Add and after a short time the rule will be created.
 
+![Add](https://github.com/sunilryo/Images/blob/main/05Ruledisplay.png)
 
+**Step 3: Firewall network rule creation**
+
+    The web server will also need to use DNS to resolve IP addresses so you need to create a network rule to allow this. Follow these steps to do this:
+
+>1. Select the  Network rule collection  tab.
+
+>2. Select  Add network rule collection.
+
+[Network](https://github.com/sunilryo/Images/blob/main/05Network.png)
+
+    For  Name, type  "Net-Rule1".
+
+    For  Priority, type  "200".
+
+    For  Action, select  Allow.
+
+    Under  Rules, IP addresses, for  Name, type  "Allow-DNS".
+
+    For  Protocol, select  UDP.
+
+    For  Source type, select  IP address.
+
+    Type  172.16.1.0/24 for the Source.
+
+    For  Destination type  select  IP address.
+
+    For  Destination address, type  209.244.0.3,209.244.0.4 (These are public DNS servers operated by Level3).
+
+    For  Destination Ports, type  "53".
+>3. Select *Add*
+
+![Network](https://github.com/sunilryo/Images/blob/main/05NetworkAdd.png)
+
+![Add](https://github.com/sunilryo/Images/blob/main/05Display.png)
+
+**Step 4 - Firewall NAT rules creation**
+
+    To allow the web developer to set up the web server you need to provide remote access to the VM. Follow these steps to create a destination NAT rule for RDP:
+
+>1. Select the  NAT rule collection  tab.
+
+![NAT](https://github.com/sunilryo/Images/blob/main/05Display.png)
+
+>2. Select  Add NAT rule collection.
+
+![AddNAT](https://github.com/sunilryo/Images/blob/main/05NAT.png)
+
+    For  Name, type " rdp".
+
+    For  Priority, type  "200".
+
+    Under  Rules, for  Name, type  "rdp-nat2".
+
+    For  Protocol, select  TCP.
+
+    For  Source type, select  IP address.
+
+    Type  "*.(* = anything)" for the Source.
+
+    For  Destination address, type the firewall public IP address.
+
+    For  Destination Ports, type  "3389".
+
+    For  Translated address, type the SamScoopsWeb virtual machines private IP address.
+
+    For  Translated port, type  "3389".
+
+![NATDone](https://github.com/sunilryo/Images/blob/main/05NAT%20done.png)
+
+>3. Select "ADD"
+
+![Display](https://github.com/sunilryo/Images/blob/main/05Displaydone.png)
+
+**Step 5 - Advanced threat protection**
+
+    One of the great advantages of using the Azure Standard Firewall is that you can create rules automatically for threats using Threat Intelligence. By by default the firewall is set to only create threat 
+    alerts. Follow these steps to enable the alert and deny option.
+
+>1. On the  ScoopsFirewall  page, under  Settings, select  Threat Intelligence.
   
+![ThreatIntelligence](https://github.com/sunilryo/Images/blob/main/05ThreatIntelligence.png)
 
+>2. For *Threat intel* mode select  *Alert and deny*.
+
+![Alert](https://github.com/sunilryo/Images/blob/main/05Activated.png)
+
+>3. Select *Save*
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     
 
     
