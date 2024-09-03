@@ -1280,7 +1280,43 @@ I have created a Windows virtual machine in the Azure portal for SamScoopsWeb
 
     Traffic on the Sam’ Scoops network will fluctuate since demand for its products will most likely increase over weekends, holidays and hot weather. That’s why an Azure Standard Firewall is the best fit for 
     the business. To deploy the Azure Standard Firewall on the Firewall-Hub 192.168.1.0 subnet follow these steps:
+
+   >1. Sign in to the [Azure portal](https://portal.azure.com/) with your credentials.
+
+   >2. Search "Firewalls" and select *Firewalls*
+
+   ![Firewalls](https://github.com/sunilryo/Images/blob/main/04Firewall.png)
+
+   >3. Select *Create Firewall*.
+
+   ![CreateFirewall](https://github.com/sunilryo/Images/blob/main/04CreateFirewall.png)
+
+   >4. Subscription: Select your subscription.
+
+   >5. For the resource group, select the Firewall resource group from the dropdown, created in the earlier activity.
+
+   >6. Give the firewall instance the name "ScoopsFirewall".
+
+   >7. For the region, select the same location that you have used previously.
+
+   >8. For the Firewall SKU, select Standard from the Firewall SKU selection boxes.
+
+   >9. For Firewall management, select Use Firewall rules (classic) to manage this firewall.
+
+   >10. For Choose a virtual network, select Use existing and select the Firewall-Hub network for the virtual network created in a previous activity.
+
+   >11. For the Public IP address, select Add new and give it the name "FirewallScoops", select OK.
  
+   ![FirewalDetails](https://github.com/sunilryo/Images/blob/main/04Rule.png)
+
+   ![AdditionalDetails](https://github.com/sunilryo/Images/blob/main/04next.png)
+
+   >12. Select *Review + create* then create. The firewall will now be deployed.
+
+   ![Review](https://github.com/sunilryo/Images/blob/main/04Review.png)
+
+   ![FirewallFinal](https://github.com/sunilryo/Images/blob/main/04Final.png)
+
    
 
   
