@@ -1272,6 +1272,15 @@ I have created a Windows virtual machine in the Azure portal for SamScoopsWeb
 
    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+ <h1> Configure Azure Firewall</h1>
+
+ Earlier I have deployed a virtual machine for the Sam’s Scoops webserver and also set up a hub-spoke network topology. The next step was to ensure the network is protected centrally by installing an Azure Standard Firewall. I had to allow an external web developer to set up the webserver by providing remote access to the VM, as well as access to additional protocols.
+
+ **Step 1 - Firewall Deployment**
+
+    Traffic on the Sam’ Scoops network will fluctuate since demand for its products will most likely increase over weekends, holidays and hot weather. That’s why an Azure Standard Firewall is the best fit for 
+    the business. To deploy the Azure Standard Firewall on the Firewall-Hub 192.168.1.0 subnet follow these steps:
+ 
    
 
   
