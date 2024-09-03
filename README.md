@@ -1209,6 +1209,43 @@ I have created a Windows virtual machine in the Azure portal for SamScoopsWeb
 
    ![Display](https://github.com/sunilryo/Images/blob/main/01Display.png)
 
+   **Step 2: Create a VNet**
+
+    firewalls should protect many areas of the network so placing them in a separate VNet at the hub of the network is a good idea. Add a new VNet called "Firewall-Hub" and create a 192.168.1.0 subnet. 
+
+  >1. On the Azure home page, select the Virtual Networks service.
+
+  ![VNet](https://github.com/sunilryo/Images/blob/main/02VN.png)
+
+  >2. Select Resource group Firewall created in Step 1.
+
+  >3. Name the VNet "Firewall-Hub".
+
+  >4. Choose the same region as your resource group.
+
+  >5. Select Next and Next again.
+
+   ![Basics](https://github.com/sunilryo/Images/blob/main/02Basics.png)
+
+   ![Network](https://github.com/sunilryo/Images/blob/main/02Network1.png)
+
+  >6. Select on Add an IP address space and fill in the following details: For the address space select IPv4; For the starting address enter 192.168.1.0 and for the address space size enter /24 and then click 
+   Add.
+
+  >7. Delete any other address spaces.
+
+  >8. Select Add subnet and use the name "AzureFirewallSubnet" and click Save.
+
+  ![IpAddress](https://github.com/sunilryo/Images/blob/main/02Address11.png)
+
+  ![Review](https://github.com/sunilryo/Images/blob/main/02Review.png)
+
+  ![Create](https://github.com/sunilryo/Images/blob/main/02Create.png)
+
+  
+
+   
+
 
   
 
