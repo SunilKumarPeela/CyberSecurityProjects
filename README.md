@@ -1455,9 +1455,110 @@ I have created a Windows virtual machine in the Azure portal for SamScoopsWeb
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h1>**Secure Ports with Just In Time**</h1>
+<h1>Secure Ports with Just In Time</h1>
 
-    
+    Now that the Azure firewall is protecting the Sam Scoops web server, the server is nearly ready to be handed over to the website developers. However the management ports needed to develop the server are 
+    exposed 24/7 and your manager has tasked you to reducing this exposure using JIT.
+
+**Step 1: Enable Azure Defender for cloud**
+
+>1. Sign in to the [Azure portal](https://portal.azure.com/) with your credentials. From the Azure home page, search for and select  Virtual machines.
+
+![HomePage](https://github.com/sunilryo/Images/blob/main/07HomePage.png)
+
+>2. Select the *SamScoopsWeb* virtual machine.
+
+![SamScoop](https://github.com/sunilryo/Images/blob/main/07VM.png)
+
+>3. Select *Configuration* from the left-hand side menu.
+
+![Configuration](https://github.com/sunilryo/Images/blob/main/07Configuration.png)
+
+>4. Select *Upgrade your Microsoft Defender for Cloud subscription* to enable a just-in-time access.
+
+![Upgrade](https://github.com/sunilryo/Images/blob/main/07Upgrade.png)
+
+>5. Select *Upgrade* on the Microsoft Defender for Cloud page.
+
+![Upgrade1](https://github.com/sunilryo/Images/blob/main/07Upgrade2.png)
+
+**Step 2 - Enable JIT access** 
+
+>1. Sign in to the [Azure portal](https://portal.azure.com/) with your credentials. From the Azure home page, search for and select  Virtual machines.
+
+![HomePage](https://github.com/sunilryo/Images/blob/main/07HomePage.png)
+
+>2. Select the *SamScoopsWeb* virtual machine.
+
+![SamScoop](https://github.com/sunilryo/Images/blob/main/07VM.png)
+
+>3. Select *Configuration* from the left-hand side menu.
+
+![Configuration](https://github.com/sunilryo/Images/blob/main/07Configuration.png)
+
+>4. Select *Enable just-in-time*.
+
+![JIT](https://github.com/sunilryo/Images/blob/main/07JIT.png)
+
+**Step 3 - Configure JIT policies for SSH and RDP from Microsoft Defender for Cloud**  
+
+>1. From the SamScoopsWeb Configuration page select *Open Microsoft Defender for Cloud*.
+
+![OpenDefender](https://github.com/sunilryo/Images/blob/main/07OpenDefender.png)
+
+>2. From the  Configured  tab, right-click on the VM to which you want to add a port, and select*edit*.
+
+![Edit](https://github.com/sunilryo/Images/blob/main/07Edit.png)
+
+>3. To add SSH select *Add* and add the port number for SSH which is 22.
+
+>4. Select TCP and leave the defaults.
+
+>5. Select *OK*
+
+![SSH](https://github.com/sunilryo/Images/blob/main/07SSH.png)
+
+![Ports](https://github.com/sunilryo/Images/blob/main/07Ports.png)
+
+**Step 4 - Test remote access**
+
+>1. Select Microsoft Azure at the top of the page to take you back to the portal home page.
+
+![Home](https://github.com/sunilryo/Images/blob/main/07Homee.png)
+
+>2. From the Azure home page, search for and select  Virtual machines.
+
+![HomePage](https://github.com/sunilryo/Images/blob/main/07HomePage.png)
+
+>3. Select the SamScoopsWeb virtual machine.
+
+![SamScoop](https://github.com/sunilryo/Images/blob/main/07VM.png)
+
+>4. As the VM is already Running. Now Select Connect from the left-hand menu.
+
+![Connect](https://github.com/sunilryo/Images/blob/main/07connect.png)
+
+>5. Select Download RDP file.
+
+![Download](https://github.com/sunilryo/Images/blob/main/07Download.png)
+
+>6. Select the downloaded RDP file from your downloads folder.
+
+>7. Select Connect.
+
+![Connect](https://github.com/sunilryo/Images/blob/main/07Connectscreen.png)
+
+>8. Enter the username AzAdmin and the password P@$$@1234567 and select OK.
+
+![Login](https://github.com/sunilryo/Images/blob/main/07Password.png)
+
+You have now connected to the webserver using JIT access and you should see a window like the one below.
+
+![Remote](https://github.com/sunilryo/Images/blob/main/07Remote.png)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
