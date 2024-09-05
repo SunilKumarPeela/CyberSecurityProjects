@@ -1558,8 +1558,32 @@ You have now connected to the webserver using JIT access and you should see a wi
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+<h1>Bastion to  shield Virtual Machines</h1>
 
+    Sam’s Scoops web server is online with an Azure firewall and JIT protection but Sam now wants to protect this asset further by enabling Azure Bastion. You have been tasked to setup Azure Bastion to product 
+    the Sam’s Scoops web server.
 
+**Step 1 - Set up and configure Azure Bastion for the SamScoopsWeb VM**
+
+>1. From the Azure portal home page use the search function to find *Virtual networks* and select it.
+
+>2. Select the *Web_Server* network.  
+
+>3. On the page for the virtual network, in the left pane, select Bastion to open the Bastion page.
+
+>4. On the Bastion page, select *Configure manually*
+
+>5. On the Create a Bastion page, configure the settings for the Bastion host. To configure the instance details give the instance a Name, "*SamScoops*". For the Region, select the same region you chose for 
+    your SamScoopsWeb VM. For the Tier, select *Standard*. Leave the instance at the default of 2. 
+
+>6. Configure the virtual networks settings by selecting the *Web_server* VNet from the dropdown menu. 
+
+>7. To configure the AzureBastionSubnet, select *Manage subnet configuration*.
+
+>8. On the subnets page select *+Subnet*. Create the AzureBastionSubnet subnet using the following values. The subnet name must be *"AzureBastionSubnet"*. The subnet address range for SamScoops is 
+    *172.16.2.0/24*. Leave the other values as default. Select Save at the bottom of the page to save your values.
+
+>9. 
 
 
 
