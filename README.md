@@ -1565,25 +1565,51 @@ You have now connected to the webserver using JIT access and you should see a wi
 
 **Step 1 - Set up and configure Azure Bastion for the SamScoopsWeb VM**
 
->1. From the Azure portal home page use the search function to find *Virtual networks* and select it.
+1. From the Azure portal home page use the search function to find *Virtual networks* and select it.
 
->2. Select the *Web_Server* network.  
+![VN](https://github.com/sunilryo/Images/blob/main/08VN1.png)
 
->3. On the page for the virtual network, in the left pane, select Bastion to open the Bastion page.
+2. Select the *Web_Server* network.
 
->4. On the Bastion page, select *Configure manually*
+![Webserver](https://github.com/sunilryo/Images/blob/main/08webserver.png)
 
->5. On the Create a Bastion page, configure the settings for the Bastion host. To configure the instance details give the instance a Name, "*SamScoops*". For the Region, select the same region you chose for 
-    your SamScoopsWeb VM. For the Tier, select *Standard*. Leave the instance at the default of 2. 
+3. On the page for the virtual network, in the left pane, select Bastion to open the Bastion page.
 
->6. Configure the virtual networks settings by selecting the *Web_server* VNet from the dropdown menu. 
+![Bastion](https://github.com/sunilryo/Images/blob/main/08Bastion.png)
 
->7. To configure the AzureBastionSubnet, select *Manage subnet configuration*.
+4. On the Bastion page, select *Configure manually*
 
->8. On the subnets page select *+Subnet*. Create the AzureBastionSubnet subnet using the following values. The subnet name must be *"AzureBastionSubnet"*. The subnet address range for SamScoops is 
+![Manual](https://github.com/sunilryo/Images/blob/main/08Manual.png)
+
+5. On the Create a Bastion page, configure the settings for the Bastion host. To configure the instance details give the instance a Name, "*SamScoops*". For the Region, select the same region you chose for 
+    your SamScoopsWeb VM. For the Tier, select *Standard*. Leave the instance at the default of 2.
+
+![Bastionn](https://github.com/sunilryo/Images/blob/main/08Bassti.png)
+
+6. Configure the virtual networks settings by selecting the *Web_server* VNet from the dropdown menu. 
+
+7. To configure the AzureBastionSubnet, select *Manage subnet configuration*.
+
+![ManualSubnet](https://github.com/sunilryo/Images/blob/main/08manage.png) 
+
+8. On the subnets page select *+Subnet*. Create the AzureBastionSubnet subnet using the following values. The subnet name must be *"AzureBastionSubnet"*. The subnet address range for SamScoops is 
     *172.16.2.0/24*. Leave the other values as default. Select Save at the bottom of the page to save your values.
 
->9. 
+![subnet](https://github.com/sunilryo/Images/blob/main/09name.png)
+
+9. At the top of the Subnets page, select Create a Bastion to return to the Bastion configuration page.
+
+![Createsubnet](https://github.com/sunilryo/Images/blob/main/09name1.png)
+
+10. Select Create new under Public IP address You can leave the default naming suggestion.
+
+11. When you finish specifying the settings, select Review + Create. This validates the values.
+
+![Created](https://github.com/sunilryo/Images/blob/main/09name2.png)
+
+12. Once validation passes, you can deploy Bastion. Select Create.
+
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
