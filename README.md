@@ -25,7 +25,7 @@
 
 > Conducted a full vulnerability scan using Tenable/Nessus tools and analyzed the results to prioritize high-risk findings. Report includes remediation recommendations and alignment with CIS benchmarks.
 >
-> 👉 [View Report](./Vulnerability%20assessment%20report.pdf)👉 [View Report](./Vulnerability%20assessment%20report.pdf)
+> 👉 [View Report](./Vulnerability%20assessment%20report.pdf)
 
 <h1>Incident Response</h1>
 
