@@ -51,10 +51,11 @@
 👉 [View Full Project](https://github.com/SunilKumarPeela/ElasticSIEM/tree/main)
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 <h1> Microsoft Azure Project</h1>
 
+*Designed and deployed a secure Azure environment with hub-spoke networking, DDoS protection, and Azure Firewall. Applied Zero Trust principles using Conditional Access, Just-In-Time VM Access, and Privileged Identity Management. Simulated real attack scenarios to validate alerting mechanisms and access control effectiveness. Monitored cloud posture using Microsoft Secure Score with automated compliance tracking. Built an enterprise-grade SOC architecture, demonstrating complete command of Azure cybersecurity operations.*
+
+👉 [View Full Project](https://github.com/SunilKumarPeela/MicrosoftAzureCloud/tree/main)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h2> *Create User and Groups*</h2>
