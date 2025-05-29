@@ -34,7 +34,7 @@
 
 <h1>Update file through Python Algorithm</h1>
 
-> Developed a Python script to dynamically update data files for automated incident logging. Demonstrates secure file handling, script-based automation, and adaptability in security operations.
+*Developed a Python script to dynamically update data files for automated incident logging. Demonstrates secure file handling, script-based automation, and adaptability in security operations.*
 >
 > 🔗 [View Report](./Update%20a%20file%20through%20a%20Python%20algorithm.pdf)
 
