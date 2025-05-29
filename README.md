@@ -1,32 +1,55 @@
-# Portfolio
-<h> Personal Statement </h>
+## 📁 Portfolio
+
+### Personal Statement
 > I am deeply committed to safeguarding organizational and customer data from malicious actors. As a research-oriented individual with a passion for solving puzzles, I aspire to integrate my quantum expertise with my cybersecurity skills to streamline processes and minimize impact.
-<h1>Internal Audit Report</h1>
 
+---
+
+### 📋 Internal Audit Report
 > I have completed the internal audit report for the toy company for compliance following NIST CF.  
->  
-> 👉 [View Report](./Controls%20and%20compliance%20checklist.pdf)
+👉 [📄 View Report](https://github.com/SunilKumarPeela/SunilKumarPeela/blob/main/Controls%20and%20compliance%20checklist.pdf)
 
+---
 
-<h1>List privilege Access</h1>
+### 🔐 List Privilege Access
+> I have provided access to the files to users, groups, and others using Linux bash scripting.  
+👉 [📄 View Report](https://github.com/SunilKumarPeela/SunilKumarPeela/blob/main/File%20permissions%20in%20Linux.pdf)
 
->I have provided access to the files to users, groups, and others using Linux bash scripting, and the file is attached above
+---
 
-<h1>SQL tool Filters</h1>
+### 🧮 SQL Tool Filters
+> I have used SQL queries to filter databases for the investigation.  
+👉 [📄 View Report](https://github.com/SunilKumarPeela/SunilKumarPeela/blob/main/Apply%20filters%20to%20SQL%20queries%20(1).pdf)
 
->I have used the SQL tool to filter databases for the investigation. I have attached the document the steps I have done above
+---
 
-<h1>Vulnarability Accessment</h1>
+### 🚨 Vulnerability Assessment
+> The vulnerability assessment is completed and documented.  
+👉 [📄 View Report](https://github.com/SunilKumarPeela/SunilKumarPeela/blob/main/Vulnerability%20assessment%20report.pdf)
 
-> The vulnerability assessment is done and documented which is attached above.
+---
 
-<h1>Incident Response</h1>
+### 🧯 Incident Response
+> The ransomware incident in the healthcare sector shook the company. All details are captured in the response form.  
+👉 [📄 View Report](https://github.com/SunilKumarPeela/SunilKumarPeela/blob/main/Incident%20handler%27s%20journal%20.pdf)
 
-> The Ransome incident in the healthcare sector shook the company. I have provided the details regarding this incident in the incident response form.
+---
 
-<h1>Update file through Python Algorithm</h1>
+### 🧠 Python File Automation
+> I used a Python algorithm to dynamically update the file after parsing.  
+👉 [📄 View Report](https://github.com/SunilKumarPeela/SunilKumarPeela/blob/main/Update%20a%20file%20through%20a%20Python%20algorithm.pdf)
 
-> I have used the Python programming language to update the file after reading it which is attached above.
+---
+
+### 📌 Final Incident Report - Capstone
+> This is the final documented incident report for the Google Cloud Capstone project.  
+👉 [📄 View Report](https://github.com/SunilKumarPeela/SunilKumarPeela/blob/main/Final%20Incident%20Report-%20Capstone.pdf)
+
+---
+
+### 📊 Vulnerability Scan Image
+> A visual representation of the vulnerability scan process.  
+👉 [📄 View Image](https://github.com/SunilKumarPeela/SunilKumarPeela/blob/main/vulnarability%20scan.png)
 
 <h1>Google Cloud Capstone Project</h1>
 
