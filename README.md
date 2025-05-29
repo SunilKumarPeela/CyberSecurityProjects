@@ -2,40 +2,41 @@
 
 <h1>Internal Audit Report</h1>
 
->Conducted a comprehensive internal audit using the NIST Cybersecurity Framework for a toy manufacturing company. The report outlines control gaps, mitigation strategies, and policy enforcement improvements.
+>*Conducted a comprehensive internal audit using the NIST Cybersecurity Framework for a toy manufacturing company. The report outlines control gaps, mitigation strategies, and policy enforcement improvements.*
 >  
 > 🔗 [View Report](./Controls%20and%20compliance%20checklist.pdf)
 
 
 <h1>List privilege Access</h1>
 
->Performed detailed file-level access control reviews using Linux bash scripting. This project ensures least privilege access and enforces group-based security, following enterprise compliance standards.
+>*Performed detailed file-level access control reviews using Linux bash scripting. This project ensures least privilege access and enforces group-based security, following enterprise compliance standards.*
 >
 >🔗 [View Report](./File%20permissions%20in%20Linux.pdf)
 
 
 <h1>SQL tool Filters</h1>
 
->Utilized SQL to filter large datasets for threat investigation, simulating a real-world SOC analysis use case. Queries were optimized for speed and accuracy to support timely threat response.
+>*Utilized SQL to filter large datasets for threat investigation, simulating a real-world SOC analysis use case. Queries were optimized for speed and accuracy to support timely threat response.*
 >
 >🔗 [View Report](./Apply%20filters%20to%20SQL%20queries%20(1).pdf)
 
 <h1>Vulnarability Accessment</h1>
 
-> Conducted a full vulnerability scan using Tenable/Nessus tools and analyzed the results to prioritize high-risk findings. Report includes remediation recommendations and alignment with CIS benchmarks.
+>
+> *Conducted a full vulnerability scan using Tenable/Nessus tools and analyzed the results to prioritize high-risk findings. Report includes remediation recommendations and alignment with CIS benchmarks.*
 >
 > 🔗 [View Report](./Vulnerability%20assessment%20report.pdf)
 
 <h1>Incident Response</h1>
 
-> Simulated a ransomware incident in a healthcare environment and documented the complete incident response lifecycle from detection to containment and recovery. Report reflects real-world impact and cross-team coordination.
+> *Simulated a ransomware incident in a healthcare environment and documented the complete incident response lifecycle from detection to containment and recovery. Report reflects real-world impact and cross-team coordination.*
 >
 > 🔗 [View Report](./Incident%20handler%27s%20journal%20.pdf)
 ---
 
 <h1>Update file through Python Algorithm</h1>
 
-*Developed a Python script to dynamically update data files for automated incident logging. Demonstrates secure file handling, script-based automation, and adaptability in security operations.*
+>*Developed a Python script to dynamically update data files for automated incident logging. Demonstrates secure file handling, script-based automation, and adaptability in security operations.*
 >
 > 🔗 [View Report](./Update%20a%20file%20through%20a%20Python%20algorithm.pdf)
 ---
