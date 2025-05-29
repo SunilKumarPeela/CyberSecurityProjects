@@ -17,19 +17,27 @@
 
 <h1>SQL tool Filters</h1>
 
->I have used the SQL tool to filter databases for the investigation. I have attached the document the steps I have done above
+>Utilized SQL to filter large datasets for threat investigation, simulating a real-world SOC analysis use case. Queries were optimized for speed and accuracy to support timely threat response.
+>
+>👉 [View Report](./Apply%20filters%20to%20SQL%20queries%20(1).pdf)
 
 <h1>Vulnarability Accessment</h1>
 
-> The vulnerability assessment is done and documented which is attached above.
+> Conducted a full vulnerability scan using Tenable/Nessus tools and analyzed the results to prioritize high-risk findings. Report includes remediation recommendations and alignment with CIS benchmarks.
+>
+> 👉 [View Report](./Vulnerability%20assessment%20report.pdf)👉 [View Report](./Vulnerability%20assessment%20report.pdf)
 
 <h1>Incident Response</h1>
 
-> The Ransome incident in the healthcare sector shook the company. I have provided the details regarding this incident in the incident response form.
+> Simulated a ransomware incident in a healthcare environment and documented the complete incident response lifecycle from detection to containment and recovery. Report reflects real-world impact and cross-team coordination.
+>
+> 👉 [View Report](./Incident%20handler%27s%20journal%20.pdf)
 
 <h1>Update file through Python Algorithm</h1>
 
-> I have used the Python programming language to update the file after reading it which is attached above.
+> Developed a Python script to dynamically update data files for automated incident logging. Demonstrates secure file handling, script-based automation, and adaptability in security operations.
+>
+> 👉 [View Report](./Update%20a%20file%20through%20a%20Python%20algorithm.pdf)
 
 <h1>Google Cloud Capstone Project</h1>
 
