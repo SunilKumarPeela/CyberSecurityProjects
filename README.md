@@ -4,6 +4,7 @@
 <h1>Internal Audit Report</h1>
 
 >I have completed the internal audit report for the toy company for compliance following NIST CF.
+👉 [View Report](./Controls%20and%20compliance%20checklist.pdf)
 
 <h1>List privilege Access</h1>
 
