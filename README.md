@@ -3,14 +3,17 @@
 > I am deeply committed to safeguarding organizational and customer data from malicious actors. As a research-oriented individual with a passion for solving puzzles, I aspire to integrate my quantum expertise with my cybersecurity skills to streamline processes and minimize impact.
 <h1>Internal Audit Report</h1>
 
-> I have completed the internal audit report for the toy company for compliance following NIST CF.  
+>Conducted a comprehensive internal audit using the NIST Cybersecurity Framework for a toy manufacturing company. The report outlines control gaps, mitigation strategies, and policy enforcement improvements.
 >  
 > 👉 [View Report](./Controls%20and%20compliance%20checklist.pdf)
 
 
 <h1>List privilege Access</h1>
 
->I have provided access to the files to users, groups, and others using Linux bash scripting, and the file is attached above
+>Performed detailed file-level access control reviews using Linux bash scripting. This project ensures least privilege access and enforces group-based security, following enterprise compliance standards.
+>
+>👉 [View Report](./File%20permissions%20in%20Linux.pdf)
+
 
 <h1>SQL tool Filters</h1>
 
