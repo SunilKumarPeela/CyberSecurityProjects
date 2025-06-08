@@ -68,7 +68,8 @@
 
 <h1>Valdorian Times Cybersecurity Breach: A Real-World SOC Investigation </h1>
 
->*This project showcases a realistic cybersecurity investigation of a breach at the fictional Valdorian Times newsroom. Leveraging KQL, passive DNS analysis, process telemetry, and endpoint forensics, the case tracks a spear-phishing attack that escalates into document forgery, credential abuse, and data exfiltration. Designed for SOC analysts and cybersecurity learners, it offers a hands-on, narrative-driven experience to simulate real-world incident response.
+>*This project showcases a realistic cybersecurity investigation of a breach at the fictional Valdorian Times newsroom. Leveraging KQL, passive DNS analysis, process telemetry, and endpoint forensics, the case tracks a spear-phishing attack that escalates into document forgery, credential abuse, and data exfiltration. Designed for SOC analysts and cybersecurity learners, it offers a hands-on, narrative-driven experience to simulate real-world incident response.*
+
 > 🔗 [View Full Project](https://github.com/SunilKumarPeela/kql1)
 
 ---
