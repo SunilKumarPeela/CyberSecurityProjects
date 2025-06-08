@@ -6,6 +6,7 @@
 >  
 > 🔗 [View Report](./Controls%20and%20compliance%20checklist.pdf)
 
+---
 
 <h1>List privilege Access</h1>
 
@@ -13,6 +14,7 @@
 >
 >🔗 [View Report](./File%20permissions%20in%20Linux.pdf)
 
+---
 
 <h1>SQL tool Filters</h1>
 
@@ -20,18 +22,25 @@
 >
 >🔗 [View Report](./Apply%20filters%20to%20SQL%20queries%20(1).pdf)
 
+---
+
 <h1>Vulnarability Accessment</h1>
 
 >
 > *Conducted a full vulnerability scan using Tenable/Nessus tools and analyzed the results to prioritize high-risk findings. Report includes remediation recommendations and alignment with CIS benchmarks.*
+
+
 >
 > 🔗 [View Report](./Vulnerability%20assessment%20report.pdf)
+
+---
 
 <h1>Incident Response</h1>
 
 > *Simulated a ransomware incident in a healthcare environment and documented the complete incident response lifecycle from detection to containment and recovery. Report reflects real-world impact and cross-team coordination.*
 >
 > 🔗 [View Report](./Incident%20handler%27s%20journal%20.pdf)
+
 ---
 
 <h1>Update file through Python Algorithm</h1>
@@ -39,6 +48,7 @@
 >*Developed a Python script to dynamically update data files for automated incident logging. Demonstrates secure file handling, script-based automation, and adaptability in security operations.*
 >
 > 🔗 [View Report](./Update%20a%20file%20through%20a%20Python%20algorithm.pdf)
+
 ---
 
 <h1> Security Blue Team Capstone Project - Threat Hunting</h1>
@@ -54,6 +64,14 @@
 
 > 🔗 [View Full Project](https://github.com/SunilKumarPeela/ElasticSIEM/tree/main)
 
+---
+
+<h1>Valdorian Times Cybersecurity Breach: A Real-World SOC Investigation </h1>
+
+>*This project showcases a realistic cybersecurity investigation of a breach at the fictional Valdorian Times newsroom. Leveraging KQL, passive DNS analysis, process telemetry, and endpoint forensics, the case tracks a spear-phishing attack that escalates into document forgery, credential abuse, and data exfiltration. Designed for SOC analysts and cybersecurity learners, it offers a hands-on, narrative-driven experience to simulate real-world incident response.
+> 🔗 [View Full Project](https://github.com/SunilKumarPeela/kql1)
+
+---
 
 
 
