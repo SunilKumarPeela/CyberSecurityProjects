@@ -74,6 +74,12 @@
 
 ---
 
+<h1> Cyber Espionage SOC</h1>
+
+>*This repository showcases an in-depth forensic investigation into a simulated cyber breach of TitanShield’s highly classified initiative, Project Omega—a next-gen autonomous AI defense platform. What initially appeared to be a harmless download of a tank-themed game, DeTankWar, quickly escalated into a covert espionage operation orchestrated by the North Korean APT group Moonstone Sleet. Leveraging phishing attacks, weaponized game files, and command-and-control infrastructure, the attackers successfully compromised a secure environment, staged critical data, and exfiltrated it via FTP. Through detailed KQL-based threat hunting and Microsoft Defender XDR-style analysis, this case study unravels the full attack sequence—highlighting how a single click can compromise even the most fortified networks. Whether you're a SOC analyst, red team operator, or cybersecurity enthusiast, this repository offers both a hands-on learning experience and a gripping look into the tactics of modern cyber warfare.*
+
+> 🔗 [View Full Project](https://github.com/SunilKumarPeela/CyberEspionageSOC)
+---
 
 
 
